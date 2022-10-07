@@ -1,37 +1,39 @@
-Diatas merupakan hasil akhir dari script HTML yang saya buat, Ya saya tau sangat jelek dan simple tapi mungkin bisa membantu kalian bagi yang belum bisa membuat. Untuk script lengkapnya kalian copy saja kode dibawah ini:
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>My Biodata</title>
-<style>
-.wrap{
-background-color:rgba(255,255,255,0.7);
-width: 800px;
-color:black;
-margin: 20px auto;
-padding:15px;
-}
-</style>
-</head>
-<body style="background: url(URL-GAMBAR-BACKGROUND.jpg);background-size:cover;background-attachment: fixed;">
-<div class="wrap">
-<h1 class="class" align="center">BIODATA DIRI</h1><hr/ align="center" width="25%" style="border-top: 3px double #8c8b8b;">
-<table>
-<tr><td rowspan="10" width="100px">
-<img src="URL-FOTOMU.jpg" width="200px" style="display: block;border-radius: 50%;border-color:white;margin-right:30px" border="2px" ></td></tr>
-<tr><td><b>Nama</b></td><td>:</td> <td>Helmi Irfansah</td></tr>
-<tr><td><b>NIM</b></td><td>:</td> <td>57</td></tr>
-<tr><td><b>Alamat</b></td><td>:</td> <td>RUMAH</td></tr>
-<tr><td><b>TTL</b></td><td>:</td> <td>Kebumen, 02 Juli 1999</td></tr>
-<tr><td><b>Email</b></td><td>:</td> <td>akhmadhelmiirfansyah@gmail.com</td></tr>
-<tr><td><b>Hobi</b></td><td>:</td> <td>Bermain Game</td></tr>
-<tr><td><b>Cita-cita</b></td><td>:</td> <td>Webmaster</td></tr></table>
-<table>
-<h3>Riwayat Pendidikan</h3>
-<tr><td><b>SD</b></td><td>:</td> <td>SDN 1 Terserah</td></tr>
-<tr><td><b>SMP</b></td><td>:</td> <td>SMPN 1 Terserah</td></tr>
-<tr><td><b>SMK</b></td><td>:</td> <td>SMKN 1 Terserah</td></tr></table>
-<div>
-</body>
-</html>
+<!DOCTYPE html><head><title>Cara Membuat Tabel Biodata Diri dengan HTML</title></head>  </p>
+<h1 align="center">BIODATA DIRI</h1>
+<table border="1" cellspacing="0" cellpadding="5" align="center" width="800">
+<tr align="center" bgcolor="#1fe5d5">
+<td width="200">DATA DIRI</td>
+<td width="400">KETERANGAN</td>
+<td width="200">FOTO</td>
+</tr>
+<tr>
+<td>Nama</td>
+<td>Riski Dewanto</td>
+<td rowspan="7"><img src="http://www.dewainfoku.my.id/riski.jpeg" width="200" /></td>
+</tr>
+<tr>
+<td>Tempat/Tanggal Lahir</td>
+<td>Makassar, 19 Januari 2001</td>
+</tr>
+<tr>
+<td>Alamat</td>
+<td>Jl. Bawakaraeng samping smansa</td>
+</tr>
+<tr>
+<td>Agama</td>
+<td>Islam</td>
+</tr>
+<tr>
+<td>Jenis Kelamin</td>
+<td>Laki-Laki</td>
+</tr>
+<tr>
+<td>Pekerjaan</td>
+<td>Mahasiswa</td>
+</tr>
+<tr>
+<td>Hobi</td>
+<td>Bermain Basket</td>
+</tr>
+</table>
+<p> 
