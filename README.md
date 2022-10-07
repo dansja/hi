@@ -1,4 +1,3 @@
-<!DOCTYPE html><head><title>Cara Membuat Tabel Biodata Diri dengan HTML</title></head>  </p>
 <h1 align="center">BIODATA DIRI</h1>
 <table border="1" cellspacing="0" cellpadding="5" align="center" width="800">
 <tr align="center" bgcolor="#1fe5d5">
@@ -9,7 +8,7 @@
 <tr>
 <td>Nama</td>
 <td>Riski Dewanto</td>
-<td rowspan="7"><img src="http://www.dewainfoku.my.id/riski.jpeg" width="200" /></td>
+<td rowspan="7"><img src="./i.jpg" width="200" /></td>
 </tr>
 <tr>
 <td>Tempat/Tanggal Lahir</td>
